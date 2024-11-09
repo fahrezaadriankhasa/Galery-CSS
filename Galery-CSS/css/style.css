@@ -6,21 +6,21 @@ body {
 }
 
 h1 {
-    font-size: 80px;
-    line-height: 0.90;
-    margin: 50px 0;
+    font-size: 80px; /* Ukuran font judul utama (Naruto shippuden) */
+    line-height: 0.90; /* Jarak antar baris */
+    margin: 50px 0; /*margin atas dan bawah */
     text-align: center;
     text-shadow: 1px 1px 2px white ;
 }
 
 
 .container {
-    width: 600px;
-    background-color: white;
-    margin: auto;
+    width: 600px; /*lebar kontainer */
+    background-color: white; /*warna latar kontainer */
+    margin: auto; /*mengatur kontainer supaya ditengah */
     padding: 20px;
     box-shadow: 0 0 3px 3px rgba(0,0,0,0.3);
-    border-radius: 5px;
+    border-radius: 5px;  /*sudut kontainer melekung */
 }
 
 
@@ -37,7 +37,7 @@ h1 {
 .gallery li,
 .gallery li img,
 .gallery li span {
-    border-radius: 50%;
+    border-radius: 50%; /*membuat elemen menjadi lingkaran*/
 }
 
 .gallery li span {
@@ -58,7 +58,7 @@ h1 {
 
 .gallery li a:hover span {
     opacity: 1;
-    transform: scale(1) rotate(360deg);
+    transform: scale(1) rotate(360deg); /*efek animasi transformasi */
 }
 
 
@@ -92,13 +92,13 @@ h1 {
 }
 
 .overlay img {
-    max-height: 100%;
+    max-height: 100%; /*menjaga tinggi gambar maksimum supaya sesuai dg layar */
     box-shadow: 2px 2px 2px rgba(0,0,0,.5);
 
 }
 
 .overlay:target img {
-    animation: zoomDanFade 1s;
+    animation: zoomDanFade 1s; /*animasi zoom saat overlay dibuka*/
 }
 
 .overlay .close {
